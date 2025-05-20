@@ -44,7 +44,7 @@ python3 forge_jwt.py -t <token> -w /caminho/para/wordlist.txt
 
 ### Forjar token com alterações (ex: virar admin)
 ```bash
-python3 forge_jwt.py -t <token> -p c4mb10 -alg HS256 -d '{"role": "admin"}'
+python3 forge_jwt.py -t <token> -p SEGREDO -alg HS256 -d '{"role": "admin"}'
 ```
 
 ### Ataque `alg: none`
